@@ -1,0 +1,116 @@
+{
+  "sources": [
+    {
+      "name": "暴风资源",
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "enabled": true
+    },
+    {
+      "name": "量子资源",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "enabled": true
+    },
+    {
+      "name": "索尼资源",
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "enabled": true
+    },
+    {
+      "name": "最大资源",
+      "api": "https://api.zuidapi.com/api.php/provide/vod/",
+      "enabled": true
+    },
+    {
+      "name": "闪电资源",
+      "api": "https://sdzyapi.com/api.php/provide/vod/",
+      "enabled": true
+    },
+    {
+      "name": "无尽资源",
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "enabled": true
+    },
+    {
+      "name": "非凡资源",
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "红牛资源",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "金鹰资源",
+      "api": "https://jyzyapi.com/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "豪华资源",
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "MD资源",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "电影天堂",
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "360资源",
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "U酷资源",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "百度云资源",
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "enabled": false
+    },
+    {
+      "name": "CK资源",
+      "api": "https://ckzy.me/api.php/provide/vod/",
+      "enabled": false
+    }
+  ],
+  "iptv_sources": [
+    {
+      "name": "IPTV-org 中国",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "enabled": true
+    },
+    {
+      "name": "YanG-1989 聚合",
+      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+      "enabled": true
+    },
+    {
+      "name": "Joevess 央视卫视",
+      "url": "https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "Joevess 综合",
+      "url": "https://raw.githubusercontent.com/joevess/IPTV/main/iptv.m3u8",
+      "enabled": true
+    },
+    {
+      "name": "直播电视 IPTV4",
+      "url": "https://live.zbds.top/tv/iptv4.m3u",
+      "enabled": true
+    },
+    {
+      "name": "BurningC4 中国 IPv4",
+      "url": "https://iptv.burningc4.com/TV-IPV4.m3u",
+      "enabled": true
+    }
+  ]
+}
