@@ -2,15 +2,15 @@
 
 WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK，源码仓库私有。
 
-## 下载（v0.1.0）
+## 下载
 
 | 应用 | 适用设备 | 直链下载 | 大小 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.0/WarmCoreCinemaPhone-debug.apk) | 约 95 MB |
-| 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.0/WarmCoreCinemaTV-debug.apk) | 约 64 MB |
-| 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.0/WarmCoreCinemaCar-debug.apk) | 约 13 MB |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone-debug.apk（v0.1.1）](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.1/WarmCoreCinemaPhone-debug.apk) | 约 97 MB |
+| 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV-debug.apk（v0.1.0）](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.0/WarmCoreCinemaTV-debug.apk) | 约 64 MB |
+| 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk（v0.1.0）](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.0/WarmCoreCinemaCar-debug.apk) | 约 13 MB |
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.0/SHA256.txt)
+文件完整性校验：[v0.1.1 SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.1/SHA256.txt)（TV / 车机端哈希见 [v0.1.0 SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.0/SHA256.txt)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -22,4 +22,5 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.1**（2026-09-05）：修复手机端「历史」Tab 播放记录加载失败——播放记录改为本地存储（与 TV / 车机版一致），不再依赖服务端接口。仅更新手机端 APK。
 - **v0.1.0**（2026-09-05）：首个公开版本，三端 debug 构建。
