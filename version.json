@@ -1,10 +1,10 @@
 {
-  "version": "1.0.9",
-  "versionCode": 10009,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.9/WarmCoreCinemaPhone.apk",
+  "version": "1.0.10",
+  "versionCode": 10010,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.10/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "音乐页改版：搜歌、FM电台、音乐频道三块常驻同屏（radio-browser中国电台+IPTV音乐频道横排卡片，点击即播）",
+  "notes": "底部选项卡改为纯文字（去掉首次切换时出现的图标），选中态橙字橙描边",
   "force_update": false,
   "car_version": "1.0.36"
 }
