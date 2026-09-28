@@ -1,10 +1,10 @@
 {
-  "version": "1.0.18",
-  "versionCode": 10018,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.18/WarmCoreCinemaPhone.apk",
+  "version": "1.0.19",
+  "versionCode": 10019,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.19/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "音质筛选：标准128k/高品192k/超品320k/无损FLAC四档，搜索、播放、缓存全生效，VIP试听片段自动降级",
+  "notes": "播放页瘦身：竖屏去掉与信息区重复的底部控制排，删除多余的暂停标题卡，剧集网格长按即可缓存/取消",
   "force_update": false,
   "car_version": "1.0.36"
 }
