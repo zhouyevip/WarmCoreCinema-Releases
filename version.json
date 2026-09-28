@@ -1,10 +1,10 @@
 {
-  "version": "1.0.4",
-  "versionCode": 10004,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaPhone-debug.apk",
+  "version": "1.0.5",
+  "versionCode": 10005,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.5/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "三端去云端化：本机直连资源站，源配置支持 GitHub 远程更新；OTA 改走 GitHub",
+  "notes": "底部固定选项卡并新增音乐Tab（IPTV音乐频道）；去掉影视页头整排；剧集长名自适应列数完整显示",
   "force_update": false,
   "car_version": "1.0.36"
 }
