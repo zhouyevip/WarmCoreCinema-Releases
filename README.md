@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.5/WarmCoreCinemaPhone.apk) | **1.0.5** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.6/WarmCoreCinemaPhone.apk) | **1.0.6** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.5）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.5**。
+手机端 APK 只有上面这一个（v0.1.6）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.6**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.5/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.6/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.6**（2026-09-28）：手机端 1.0.6。音乐 Tab 支持搜歌点播——输入歌名/歌手搜索（酷我音源），点击歌曲直接解析直链播放，支持缓存下载；音乐频道（IPTV）保留为第二模式。
 - **v0.1.5**（2026-09-28）：手机端 1.0.5。「点播 / 直播 / 历史 / 缓存」选项卡移至底部固定并新增**音乐** Tab（聚合 IPTV 音乐频道，点击即播）；去掉顶部「影视」标题整排；修复剧集长名字显示不全（网格按名字长度自适应列数）。签名与 v0.1.4 相同，可直接覆盖升级。
 - **v0.1.4**（2026-09-05）：三端去云端化——本机直连资源站，源配置支持 GitHub 远程更新（24h 自动刷新），OTA 改走 GitHub。TV 瘦身至 3.2MB（1.1.6）、手机端瘦身至 13.7MB（1.0.4）、车机端 1.0.36。
 - **v0.1.3**（2026-09-05）：修复点播页「加载失败: HTTP 404」（构建参数缺陷导致请求路径异常）。已在模拟器实测点播加载与历史页正常。应用内版本 1.0.2。
