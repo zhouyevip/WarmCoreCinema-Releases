@@ -1,10 +1,10 @@
 {
-  "version": "1.0.20",
-  "versionCode": 10020,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.20/WarmCoreCinemaPhone.apk",
+  "version": "1.0.21",
+  "versionCode": 10021,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.21/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "历史删除：长按历史卡片可删除单条记录或清空全部播放历史",
+  "notes": "搜索结果过滤60秒以下铃声/预告短音频（低音质主要来源），单页拉取扩到50条",
   "force_update": false,
   "car_version": "1.0.36"
 }

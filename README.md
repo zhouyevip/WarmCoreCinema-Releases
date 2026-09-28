@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.20/WarmCoreCinemaPhone.apk) | **1.0.20** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.21/WarmCoreCinemaPhone.apk) | **1.0.21** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.20）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.20**。
+手机端 APK 只有上面这一个（v0.1.21）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.21**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.20/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.21/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.21**（2026-09-28）：手机端 1.0.21。搜歌结果过滤 60 秒以下的铃声版/预告版短音频（此前低音质听感的主要来源），单页拉取从 30 扩到 50 条保证过滤后结果充足；音质选择器标注酷我免费源上限约 128k。
 - **v0.1.20**（2026-09-28）：手机端 1.0.20。历史删除：播放历史页长按任意卡片可「删除这条记录」或「清空全部历史」（清空前有确认）。
 - **v0.1.19**（2026-09-28）：手机端 1.0.19。播放页瘦身：竖屏隐藏与信息区重复的底部控制排（横屏全屏仍可用）；删除信息区顶部多余的「片名·已暂停」卡片；剧集网格长按即可缓存/取消下载（✓ 已缓存绿字、⏙ 下载中橙字进度）；横屏按钮改为视频画面右上浮动按钮。
 - **v0.1.18**（2026-09-28）：手机端 1.0.18。音质筛选：音乐页搜索区与播放器均可切换 标准128k / 高品192k / 超品320k / 无损FLAC，选择记忆；播放与缓存按选定音质取链，检测到 VIP 试听片段（文件过小）自动降级保证完整播放。
