@@ -1,10 +1,10 @@
 {
-  "version": "1.0.7",
-  "versionCode": 10007,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.7/WarmCoreCinemaPhone.apk",
+  "version": "1.0.8",
+  "versionCode": 10008,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.8/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "音乐搜歌结果改为汽水音乐风格列表（封面+歌名+歌手+时长+播放钮），不再是方形海报网格",
+  "notes": "音乐频道模式保留搜索框，支持关键词筛选音乐频道；搜索框提示词按模式切换",
   "force_update": false,
   "car_version": "1.0.36"
 }
