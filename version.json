@@ -1,10 +1,10 @@
 {
-  "version": "1.0.14",
-  "versionCode": 10014,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.14/WarmCoreCinemaPhone.apk",
+  "version": "1.0.15",
+  "versionCode": 10015,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.15/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "音乐后台播放：关掉播放器歌曲继续；音乐页顶部正在播放条可回到播放器续播；打开视频自动停音乐、打开音乐自动停视频",
+  "notes": "歌曲缓存：播放器⬇缓存按钮、❤️收藏自动缓存，已缓存歌曲离线可播（本地文件优先）",
   "force_update": false,
   "car_version": "1.0.36"
 }
