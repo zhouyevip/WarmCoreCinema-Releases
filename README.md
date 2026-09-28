@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.11/WarmCoreCinemaPhone.apk) | **1.0.11** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.12/WarmCoreCinemaPhone.apk) | **1.0.12** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.11）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.11**。
+手机端 APK 只有上面这一个（v0.1.12）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.12**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.11/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.12/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.12**（2026-09-28）：手机端 1.0.12。音乐播放器独立成页（与视频播放器分离）：深色沉浸界面、大圆角封面、歌名/歌手、进度拖动、⏮▶⏭ 控制、播放列表选曲、队列自动连播；歌曲/电台/音乐频道点击均进入该播放器。
 - **v0.1.11**（2026-09-28）：手机端 1.0.11。音乐库：搜索历史胶囊行、歌曲 ❤️ 收藏（喜欢的音乐）、自建歌单（新建/重命名/删除，长按歌曲加入或移出歌单），歌单内点歌即播。
 - **v0.1.10**（2026-09-28）：手机端 1.0.10。底部选项卡改为纯文字样式（去掉首次点击切换时出现的左侧小图标），选中态保持橙字橙描边胶囊。
 - **v0.1.9**（2026-09-28）：手机端 1.0.9。音乐页改版——搜歌、📻 FM 电台（radio-browser 中国电台：中国之声、经济之声、音乐台、相声等）、📺 音乐频道（IPTV）三块常驻同屏，横排卡片点击即播；去掉搜歌/频道模式切换。
