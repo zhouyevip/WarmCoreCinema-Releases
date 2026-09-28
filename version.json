@@ -1,10 +1,10 @@
 {
-  "version": "1.0.17",
-  "versionCode": 10017,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.17/WarmCoreCinemaPhone.apk",
+  "version": "1.0.18",
+  "versionCode": 10018,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.18/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "播放器新增❤️喜欢按钮：一键收藏当前歌曲并自动缓存，电台也可收藏",
+  "notes": "音质筛选：标准128k/高品192k/超品320k/无损FLAC四档，搜索、播放、缓存全生效，VIP试听片段自动降级",
   "force_update": false,
   "car_version": "1.0.36"
 }
