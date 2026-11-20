@@ -33,47 +33,47 @@
     {
       "name": "非凡资源",
       "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "红牛资源",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "金鹰资源",
       "api": "https://jyzyapi.com/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "MD资源",
       "api": "https://www.mdzyapi.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "电影天堂",
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "360资源",
       "api": "https://360zy.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "U酷资源",
       "api": "https://api.ukuapi.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "百度云资源",
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "CK资源",
