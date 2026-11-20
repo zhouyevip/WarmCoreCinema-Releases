@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.27/WarmCoreCinemaPhone.apk) | **1.0.27** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.28/WarmCoreCinemaPhone.apk) | **1.0.28** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.27）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.27**。
+手机端 APK 只有上面这一个（v0.1.28）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.28**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.27/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.28/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.28**（2026-11-20）：手机端 1.0.28。搜索结果按相关度排序：同名 > 以关键词开头（各季/衍生）> 包含关键词 > 模糊命中——搜「明星大侦探」前排就是各季和衍生节目，无关结果沉底。
 - **v0.1.27**（2026-11-20）：手机端 1.0.27。修复应用内更新装不上（补 Android 8+ 安装权限声明）；每次打开自动检查更新并弹窗提醒；设置页新增「检查更新」入口；版本/源配置直连 GitHub 不走 CDN，发版立即可见。本版需手动安装一次，之后的版本可直接应用内更新。
 - **v0.1.26**（2026-11-20）：手机端 1.0.26。播放失败自动换线路：线路挂了/403/超时不再直接报错，自动切换同一集的其他线路继续播（全部线路失败才提示错误）；修复暴风等源中文文件名地址播放失败；U酷资源站域名更新。
 - **v0.1.25**（2026-11-20）：手机端 1.0.25。修复搜索非常慢：多源搜索改为先到先收（前 5 个源返回即出结果，最慢 6 秒兜底，实测热搜索 1.5~2.5 秒）；死源连续失败 2 次自动熔断 10 分钟；单源搜索请求超时收紧。
