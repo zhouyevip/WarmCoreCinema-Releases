@@ -1,10 +1,10 @@
 {
-  "version": "1.0.23",
-  "versionCode": 10023,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.23/WarmCoreCinemaPhone.apk",
+  "version": "1.0.24",
+  "versionCode": 10024,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.24/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "修复历史记录点进去只有一集：点历史卡现在重新拉取整部剧（完整选集/换源/剧集网格），自动续播到上次看的集数和进度；老历史条目按标题自动找回资源",
+  "notes": "资源站扩容 6→15 个（搜索/换源全覆盖，死源 15 秒自动跳过）；修复大量资源不能看：mp4/mkv 直链剧集不再被过滤可正常播放；播放请求带浏览器 UA/Referer 解决部分 CDN 拒绝",
   "force_update": false,
   "car_version": "1.0.36"
 }
