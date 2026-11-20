@@ -1,10 +1,10 @@
 {
-  "version": "1.0.24",
-  "versionCode": 10024,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.24/WarmCoreCinemaPhone.apk",
+  "version": "1.0.25",
+  "versionCode": 10025,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.25/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "资源站扩容 6→15 个（搜索/换源全覆盖，死源 15 秒自动跳过）；修复大量资源不能看：mp4/mkv 直链剧集不再被过滤可正常播放；播放请求带浏览器 UA/Referer 解决部分 CDN 拒绝",
+  "notes": "修复搜索非常慢：改为先到先收（前 5 个源返回即出结果，最慢 6 秒兜底），死源连续失败 2 次自动熔断 10 分钟，单源请求超时收紧",
   "force_update": false,
   "car_version": "1.0.36"
 }
