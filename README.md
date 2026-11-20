@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.29/WarmCoreCinemaPhone.apk) | **1.0.29** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.30/WarmCoreCinemaPhone.apk) | **1.0.30** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.29）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.29**。
+手机端 APK 只有上面这一个（v0.1.30）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.30**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.29/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.30/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.30**（2026-11-20）：手机端 1.0.30。音乐功能下线；设置并入选项卡行（点播/直播/历史/缓存/设置），底部主栏删除；一键缓存全剧：选集弹窗、播放方式弹窗、播放页剧集区均可整部剧批量入队；历史自动过滤旧音乐条目。
 - **v0.1.29**（2026-11-20）：手机端 1.0.29。搜索结果自动隐藏失效资源：后台预检详情与首集线路，死链几秒内从列表消失；详情为空或线路全挂时自动换其他资源站同名资源接着播；只有明确 404/403 才判死，超时保守保留防误杀。
 - **v0.1.28**（2026-11-20）：手机端 1.0.28。搜索结果按相关度排序：同名 > 以关键词开头（各季/衍生）> 包含关键词 > 模糊命中——搜「明星大侦探」前排就是各季和衍生节目，无关结果沉底。
 - **v0.1.27**（2026-11-20）：手机端 1.0.27。修复应用内更新装不上（补 Android 8+ 安装权限声明）；每次打开自动检查更新并弹窗提醒；设置页新增「检查更新」入口；版本/源配置直连 GitHub 不走 CDN，发版立即可见。本版需手动安装一次，之后的版本可直接应用内更新。

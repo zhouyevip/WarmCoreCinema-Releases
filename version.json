@@ -1,10 +1,10 @@
 {
-  "version": "1.0.29",
-  "versionCode": 10029,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.29/WarmCoreCinemaPhone.apk",
+  "version": "1.0.30",
+  "versionCode": 10030,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.30/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "搜索结果自动隐藏失效资源（后台预检详情与首集线路，死链几秒内从列表消失）；详情为空或线路全挂自动换其他资源站同名资源接着播；探测保守策略防误杀",
+  "notes": "音乐功能下线；设置并入选项卡行（点播/直播/历史/缓存/设置），底部主栏删除；一键缓存全剧：选集弹窗、播放方式弹窗、播放页剧集区均可整部剧批量入队",
   "force_update": false,
   "car_version": "1.0.36"
 }
