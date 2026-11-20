@@ -1,10 +1,10 @@
 {
-  "version": "1.0.26",
-  "versionCode": 10026,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.26/WarmCoreCinemaPhone.apk",
+  "version": "1.0.27",
+  "versionCode": 10027,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.27/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "播放失败自动换线路：线路挂了/403/超时自动切换同集其他线路继续播，全部线路失败才报错；修复暴风源中文文件名地址播放失败；U酷域名更新",
+  "notes": "修复应用内更新装不上（补安装权限声明）；每次打开自动检查更新并弹窗提醒；设置页新增检查更新入口；版本/源配置直连 GitHub 不走 CDN，发版立即可见",
   "force_update": false,
   "car_version": "1.0.36"
 }
