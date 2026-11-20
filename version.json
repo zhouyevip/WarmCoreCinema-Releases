@@ -1,10 +1,10 @@
 {
-  "version": "1.0.28",
-  "versionCode": 10028,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.28/WarmCoreCinemaPhone.apk",
+  "version": "1.0.29",
+  "versionCode": 10029,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.29/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "搜索结果按相关度排序：同名 > 以关键词开头（各季/衍生）> 包含关键词 > 模糊命中，无关结果沉底（如搜明星大侦探前排即是各季和衍生节目）",
+  "notes": "搜索结果自动隐藏失效资源（后台预检详情与首集线路，死链几秒内从列表消失）；详情为空或线路全挂自动换其他资源站同名资源接着播；探测保守策略防误杀",
   "force_update": false,
   "car_version": "1.0.36"
 }
