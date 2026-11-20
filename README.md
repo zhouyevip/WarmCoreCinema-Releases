@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.25/WarmCoreCinemaPhone.apk) | **1.0.25** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.26/WarmCoreCinemaPhone.apk) | **1.0.26** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.25）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.25**。
+手机端 APK 只有上面这一个（v0.1.26）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.26**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.25/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.26/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.26**（2026-11-20）：手机端 1.0.26。播放失败自动换线路：线路挂了/403/超时不再直接报错，自动切换同一集的其他线路继续播（全部线路失败才提示错误）；修复暴风等源中文文件名地址播放失败；U酷资源站域名更新。
 - **v0.1.25**（2026-11-20）：手机端 1.0.25。修复搜索非常慢：多源搜索改为先到先收（前 5 个源返回即出结果，最慢 6 秒兜底，实测热搜索 1.5~2.5 秒）；死源连续失败 2 次自动熔断 10 分钟；单源搜索请求超时收紧。
 - **v0.1.24**（2026-11-20）：手机端 1.0.24。资源站扩容 6→15 个（搜索/换源全覆盖）；修复大量资源「不能看」：mp4/mkv 直链剧集不再被过滤、可正常播放（缓存仍限 m3u8）；播放请求带浏览器 UA/Referer 并跟随跳转，解决部分 CDN 拒绝请求。
 - **v0.1.23**（2026-11-20）：手机端 1.0.23。修复历史记录点进去只有一集：点历史卡现在重新拉取整部剧详情，进入带完整选集、换源、剧集网格的播放页，并自动续播到上次看的集数与进度；老版本历史条目（无资源信息）按标题自动找回资源。
