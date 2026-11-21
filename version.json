@@ -1,10 +1,10 @@
 {
-  "version": "1.0.32",
-  "versionCode": 10032,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.32/WarmCoreCinemaPhone.apk",
+  "version": "1.0.33",
+  "versionCode": 10033,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.33/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "换源列表全源扫描：点开剧后对全部启用资源站做搜索+详情核验，只有真正有这部剧且能连通的源才显示；集数最多的（更新最全）排最前，chips 标注「源名·N集」；连不上的源只影响自己，当前源保底列表不空",
+  "notes": "聚合搜索升级：全部启用源逐个聚合、边出结果边显示（顶部实时进度 n/总源数），同一部剧不同源的结果归并成一张卡片、不再重复刷屏；标题+季数身份匹配（第4季=4季、无季数不算第一季），不同季/番外不会被混在一起；点开卡片后所有源的播放线路合并进一个选集网格，按更新进度自动挑最全线路，chips 标注「源名·N集」随时切换",
   "force_update": false,
   "car_version": "1.0.36"
 }

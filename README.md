@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.32/WarmCoreCinemaPhone.apk) | **1.0.32** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.33/WarmCoreCinemaPhone.apk) | **1.0.33** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.32）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.32**。
+手机端 APK 只有上面这一个（v0.1.33）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.33**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.32/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.33/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.33**（2026-11-22）：手机端 1.0.33。聚合搜索升级：全部启用源逐源聚合、边出结果边显示（顶部实时进度 n/总源数），同一部剧各源结果归并成一张卡片不再刷屏；标题+季数身份匹配（第4季=4季、无季数不算第一季），不同季/番外不会混进同一卡片；点开卡片后所有源的播放线路合并进一个选集网格，按更新进度自动挑最全线路，chips 标注「源名·N集」随时切换。
 - **v0.1.32**（2026-11-21）：手机端 1.0.32。换源列表全源扫描：点开剧后对全部启用资源站做搜索+详情核验，只有真正有这部剧且能连通的源才显示；集数最多的（更新最全）排最前，chips 标注「源名·N集」；连不上的源只影响自己，当前源保底列表不空。
 - **v0.1.31**（2026-11-21）：手机端 1.0.31。不再自动跳资源站：播放失败只在本源内换线路，跨源由用户在换源列表自选，失败明确提示；季数搜索精准匹配（4↔四、省略「第」），搜「现在就出发4」第4季各源排最前、旧季沉底；搜索结果角标显示资源站名。
 - **v0.1.30**（2026-11-20）：手机端 1.0.30。音乐功能下线；设置并入选项卡行（点播/直播/历史/缓存/设置），底部主栏删除；一键缓存全剧：选集弹窗、播放方式弹窗、播放页剧集区均可整部剧批量入队；历史自动过滤旧音乐条目。
