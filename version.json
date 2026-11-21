@@ -1,10 +1,10 @@
 {
-  "version": "1.0.31",
-  "versionCode": 10031,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.31/WarmCoreCinemaPhone.apk",
+  "version": "1.0.32",
+  "versionCode": 10032,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.32/WarmCoreCinemaPhone.apk",
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "不再自动跳资源站（只在本源内换线路，失败明确提示请手动换源）；季数搜索精准匹配（4↔四/省略第，搜第4季排最前旧季沉底）；搜索结果角标显示资源站名",
+  "notes": "换源列表全源扫描：点开剧后对全部启用资源站做搜索+详情核验，只有真正有这部剧且能连通的源才显示；集数最多的（更新最全）排最前，chips 标注「源名·N集」；连不上的源只影响自己，当前源保底列表不空",
   "force_update": false,
   "car_version": "1.0.36"
 }
