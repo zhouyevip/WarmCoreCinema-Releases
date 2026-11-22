@@ -1,14 +1,14 @@
 {
-  "version": "1.0.38",
-  "versionCode": 10038,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.38/WarmCoreCinemaPhone.apk",
+  "version": "1.0.40",
+  "versionCode": 10040,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.40/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.38/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.40/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "智能跳过广告（设置→播放器可关，默认开）：按播放器实际加载的 HLS 清单里成对 CUE-OUT/CUE-IN 和明确的 DATERANGE 广告标记，到点自动跳到广告结束继续正片；无明确标记不猜跳（域名/文件名/短片段不作依据）；切集换源不沿用旧区间；离线缓存保留广告索引，缓存播放同样跳过；直播和非 HLS 不受影响",
+  "notes": "历史记录跨源归一：同一部剧同一季从不同资源站看，历史只保留一张卡片，续播直接进上次那一集和进度，不再跳回另一源的第 1 集；不同季度/同名作品不合并；各集进度独立保存；旧历史升级后自动归并且保留海报与进度。缓存下载支持暂停/继续：单集暂停立即停止流量并保留已下载字节，重启应用不自动恢复，可单集继续/继续本剧/全部继续，遵照每个任务的 Wi-Fi 设置",
   "force_update": false,
   "car_version": "1.0.36"
 }
