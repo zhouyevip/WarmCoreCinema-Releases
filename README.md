@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.34/WarmCoreCinemaPhone.apk) | **1.0.34** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.35/WarmCoreCinemaPhone.apk) | **1.0.35** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.34）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.34**。
+手机端 APK 只有上面这一个（v0.1.35）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.35**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.34/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.35/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.35**（2026-11-22）：手机端 1.0.35。缓存下载升级：锁屏/最小化/退出页面后下载继续（前台服务+通知看进度）；每任务可选「仅 Wi-Fi」或允许移动数据，切蜂窝自动暂停等待、已下载字节保留；断点续传（已验证分片不重复下载，直链按 Range 续传）；缓存任务可单独删除，播放前校验离线文件完整性。
 - **v0.1.34**（2026-11-22）：手机端 1.0.34。离线缓存重做：下载真正可播放的本地副本（m3u8 分片与密钥一并保存），空间不足明确提示；播放线路临时抖动自动重试一次，再失败才提示重试/换源；本机视频按文件身份记历史，同名文件不再混成一条；应用内更新按已装签名选兼容包并在下载后校验，杜绝装错签名包导致要卸载重装。
 - **v0.1.33**（2026-11-22）：手机端 1.0.33。聚合搜索升级：全部启用源逐源聚合、边出结果边显示（顶部实时进度 n/总源数），同一部剧各源结果归并成一张卡片不再刷屏；标题+季数身份匹配（第4季=4季、无季数不算第一季），不同季/番外不会混进同一卡片；点开卡片后所有源的播放线路合并进一个选集网格，按更新进度自动挑最全线路，chips 标注「源名·N集」随时切换。
 - **v0.1.32**（2026-11-21）：手机端 1.0.32。换源列表全源扫描：点开剧后对全部启用资源站做搜索+详情核验，只有真正有这部剧且能连通的源才显示；集数最多的（更新最全）排最前，chips 标注「源名·N集」；连不上的源只影响自己，当前源保底列表不空。
