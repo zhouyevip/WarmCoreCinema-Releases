@@ -1,14 +1,14 @@
 {
-  "version": "1.0.36",
-  "versionCode": 10036,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.36/WarmCoreCinemaPhone.apk",
+  "version": "1.0.37",
+  "versionCode": 10037,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.36/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaPhone.apk"
   },
-  "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
+  "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "播放器横竖屏重做：手动点全屏/竖屏立即生效，不再和系统旋转设置打架；播放器内尊重系统自动旋转（可跟随设备转动），锁控制时保持当前方向；切集不打断当前横竖屏状态",
+  "notes": "投屏来了：手机播放器内可投 DLNA 电视、Google Cast 设备和自家 WarmCore TV（六位码配对）；按设备真实能力显示暂停/进度/音量等遥控，不确定状态不乱报成功；投屏会话跨切集保留、退出播放器不会误停电视。配套 TV 端 1.1.7：新增「手机投屏配对」开关与本地接收，支持播控与音量",
   "force_update": false,
   "car_version": "1.0.36"
 }

@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.36/WarmCoreCinemaPhone.apk) | **1.0.36** |
-| 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk) | 1.1.6 |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaPhone.apk) | **1.0.37** |
+| 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.36）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.36**。
+手机端 APK 只有上面这一个（v0.1.37）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.37**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.36/SHA256.txt)（TV / 车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/SHA256.txt)（含手机端与 TV 端；车机端哈希见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.37**（2026-11-22）：手机端 1.0.37 + TV 端 1.1.7。投屏：手机播放器内可投 DLNA 电视、Google Cast 设备和自家 WarmCore TV（六位码配对），按设备真实能力显示遥控按钮，不确定状态不乱报成功，投屏会话跨切集保留、退出播放器不误停电视；TV 端新增「手机投屏配对」开关与本地接收，支持播控与音量。
 - **v0.1.36**（2026-11-22）：手机端 1.0.36。播放器横竖屏重做：手动全屏/竖屏切换立即生效，不再与系统旋转设置打架；播放器内尊重系统自动旋转；锁定控制时保持当前方向，切集不打断横竖屏状态。
 - **v0.1.35**（2026-11-22）：手机端 1.0.35。缓存下载升级：锁屏/最小化/退出页面后下载继续（前台服务+通知看进度）；每任务可选「仅 Wi-Fi」或允许移动数据，切蜂窝自动暂停等待、已下载字节保留；断点续传（已验证分片不重复下载，直链按 Range 续传）；缓存任务可单独删除，播放前校验离线文件完整性。
 - **v0.1.34**（2026-11-22）：手机端 1.0.34。离线缓存重做：下载真正可播放的本地副本（m3u8 分片与密钥一并保存），空间不足明确提示；播放线路临时抖动自动重试一次，再失败才提示重试/换源；本机视频按文件身份记历史，同名文件不再混成一条；应用内更新按已装签名选兼容包并在下载后校验，杜绝装错签名包导致要卸载重装。
