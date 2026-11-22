@@ -1,14 +1,14 @@
 {
-  "version": "1.0.37",
-  "versionCode": 10037,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaPhone.apk",
+  "version": "1.0.38",
+  "versionCode": 10038,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.38/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.38/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "投屏来了：手机播放器内可投 DLNA 电视、Google Cast 设备和自家 WarmCore TV（六位码配对）；按设备真实能力显示暂停/进度/音量等遥控，不确定状态不乱报成功；投屏会话跨切集保留、退出播放器不会误停电视。配套 TV 端 1.1.7：新增「手机投屏配对」开关与本地接收，支持播控与音量",
+  "notes": "智能跳过广告（设置→播放器可关，默认开）：按播放器实际加载的 HLS 清单里成对 CUE-OUT/CUE-IN 和明确的 DATERANGE 广告标记，到点自动跳到广告结束继续正片；无明确标记不猜跳（域名/文件名/短片段不作依据）；切集换源不沿用旧区间；离线缓存保留广告索引，缓存播放同样跳过；直播和非 HLS 不受影响",
   "force_update": false,
   "car_version": "1.0.36"
 }
