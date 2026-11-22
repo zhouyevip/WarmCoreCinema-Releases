@@ -1,10 +1,14 @@
 {
-  "version": "1.0.33",
-  "versionCode": 10033,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.33/WarmCoreCinemaPhone.apk",
+  "version": "1.0.34",
+  "versionCode": 10034,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.34/WarmCoreCinemaPhone.apk",
+  "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
+  "apk_by_signer": {
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.34/WarmCoreCinemaPhone.apk"
+  },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "聚合搜索升级：全部启用源逐个聚合、边出结果边显示（顶部实时进度 n/总源数），同一部剧不同源的结果归并成一张卡片、不再重复刷屏；标题+季数身份匹配（第4季=4季、无季数不算第一季），不同季/番外不会被混在一起；点开卡片后所有源的播放线路合并进一个选集网格，按更新进度自动挑最全线路，chips 标注「源名·N集」随时切换",
+  "notes": "离线缓存重做：下载的是真正可播放的本地副本（m3u8 分片与密钥一并保存），空间不足会明确提示；播放线路临时抖动自动重试一次，再失败才提示重试/换源；本机视频按文件身份记历史，同名文件不再混成一条；应用内更新按已装签名选兼容包并在下载后校验，杜绝装错签名包导致要卸载重装",
   "force_update": false,
   "car_version": "1.0.36"
 }
