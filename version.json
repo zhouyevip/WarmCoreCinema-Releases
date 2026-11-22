@@ -1,14 +1,14 @@
 {
-  "version": "1.0.35",
-  "versionCode": 10035,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.35/WarmCoreCinemaPhone.apk",
+  "version": "1.0.36",
+  "versionCode": 10036,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.36/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.35/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.36/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "缓存下载升级：锁屏、最小化、退出页面后下载继续（前台服务+通知看进度）；每个任务可选「仅 Wi-Fi」或允许移动数据，切到蜂窝自动暂停等待、已下载字节保留；断点续传（已验证分片不重复下载，直链按 Range 续传）；缓存任务可单独删除，播放前自动校验离线文件完整性",
+  "notes": "播放器横竖屏重做：手动点全屏/竖屏立即生效，不再和系统旋转设置打架；播放器内尊重系统自动旋转（可跟随设备转动），锁控制时保持当前方向；切集不打断当前横竖屏状态",
   "force_update": false,
   "car_version": "1.0.36"
 }
