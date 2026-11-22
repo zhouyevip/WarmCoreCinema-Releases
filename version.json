@@ -1,14 +1,14 @@
 {
-  "version": "1.0.40",
-  "versionCode": 10040,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.40/WarmCoreCinemaPhone.apk",
+  "version": "1.0.41",
+  "versionCode": 10041,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.41/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.40/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.41/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "历史记录跨源归一：同一部剧同一季从不同资源站看，历史只保留一张卡片，续播直接进上次那一集和进度，不再跳回另一源的第 1 集；不同季度/同名作品不合并；各集进度独立保存；旧历史升级后自动归并且保留海报与进度。缓存下载支持暂停/继续：单集暂停立即停止流量并保留已下载字节，重启应用不自动恢复，可单集继续/继续本剧/全部继续，遵照每个任务的 Wi-Fi 设置",
+  "notes": "片库排序改按内容新鲜度：优先首映/上映日期，其次年份，资源站的最后编辑时间只作次要参考——不再被站点「今天重新编辑过」的旧片顶到前排；选集列表按剧集序号排序；投屏页浏览与选集同样适用新排序",
   "force_update": false,
   "car_version": "1.0.36"
 }

@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.40/WarmCoreCinemaPhone.apk) | **1.0.40** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.41/WarmCoreCinemaPhone.apk) | **1.0.41** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.40）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.40**。
+手机端 APK 只有上面这一个（v0.1.41）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.41**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.40/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.41/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.41**（2026-11-22）：手机端 1.0.41。片库排序改按内容新鲜度：优先首映/上映日期，其次年份，资源站最后编辑时间仅作次要参考——不再被站点重新编辑过的旧片顶到前排；选集按剧集序号排序；投屏页浏览与选集同样适用。
 - **v0.1.40**（2026-11-22）：手机端 1.0.40。历史跨源归一：同一部剧同一季从不同源观看只保留一张历史卡，续播直达上次那一集和进度；不同季度/同名作品不合并；旧历史升级自动归并。缓存下载新增暂停/继续：暂停立即停流量保留字节，重启不自动恢复，支持单集/本剧/全部继续。
 - **v0.1.38**（2026-11-22）：手机端 1.0.38。智能跳过广告（默认开，设置→播放器可关）：按 HLS 清单里成对 CUE-OUT/CUE-IN 与明确 DATERANGE 标记到点自动跳过广告；无明确标记不猜跳；切集换源不沿用旧区间；离线缓存同样跳过；直播/非 HLS 不受影响。
 - **v0.1.37**（2026-11-22）：手机端 1.0.37 + TV 端 1.1.7。投屏：手机播放器内可投 DLNA 电视、Google Cast 设备和自家 WarmCore TV（六位码配对），按设备真实能力显示遥控按钮，不确定状态不乱报成功，投屏会话跨切集保留、退出播放器不误停电视；TV 端新增「手机投屏配对」开关与本地接收，支持播控与音量。
