@@ -1,14 +1,14 @@
 {
-  "version": "1.0.43",
-  "versionCode": 10043,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.43/WarmCoreCinemaPhone.apk",
+  "version": "1.0.44",
+  "versionCode": 10044,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.44/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.43/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.44/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "直播频道重做：同一个台合并成一行、挂多条线路，不再每个地址各占一行；按央视/卫视/体育/新闻/地方分类，可搜频道名或「CCTV5」这类编号；频道可收藏，收藏和最近看过的排前面，上次播通的线路会记住；播放中可换线路、上一台/下一台；线路断了自动换同一频道的其他线路，不会跳到别的台",
+  "notes": "新增「好友」标签：两部手机用蓝牙或同一 Wi-Fi 直连聊天、传文件、分享影片，不经过任何服务器；连接需两台手机核对六位码双向确认；好友身份绑定本机密钥，换连接方式不丢聊天记录；播放器「分享」可发当前影视卡片（点播可播/可缓存，直播只能播）；文件接收先确认、断点续传、完成后 SHA-256 校验；聊天与文件仅存本地不进云备份",
   "force_update": false,
   "car_version": "1.0.36"
 }
