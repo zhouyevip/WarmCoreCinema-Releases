@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.46/WarmCoreCinemaPhone.apk) | **1.0.46** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.47/WarmCoreCinemaPhone.apk) | **1.0.47** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.46）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.46**。
+手机端 APK 只有上面这一个（v0.1.47）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.47**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.46/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.47/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.47**（2026-11-24）：手机端 1.0.47。好友发现加固：Wi-Fi Direct 只认自家服务类型和完整 64 位身份指纹，短前缀/伪造后缀一律忽略；BLE/经典蓝牙/Wi-Fi Direct 连接流程与附近页刷新更稳；连接安全不变。
 - **v0.1.46**（2026-11-24）：手机端 1.0.46。蓝牙连接升级：Android 10+ 硬件支持时好友连接优先走 BLE L2CAP，不支持自动回落经典蓝牙；广播指纹仅作路由提示（认证仍靠加密+六位核对码）；自动模式优先最健康蓝牙线路。
 - **v0.1.45**（2026-11-24）：手机端 1.0.45。好友连接升级：新增 Wi-Fi Direct 直连（无需路由器/同一 Wi-Fi，无网环境可用）；自动模式自动选可用通道；离开好友页可靠注销发现服务；断线旧连接及时清理；配对安全不变。
 - **v0.1.44**（2026-11-24）：手机端 1.0.44。新增「好友」标签：两部手机蓝牙或同一 Wi-Fi 直连聊天、传文件、分享影片，不经服务器；六位核对码双向确认，好友身份跨连接方式保持；播放器可分享当前影视卡片；文件传输需接收确认、断点续传、SHA-256 校验；聊天与文件仅存本地不进云备份。

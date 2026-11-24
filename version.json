@@ -1,14 +1,14 @@
 {
-  "version": "1.0.46",
-  "versionCode": 10046,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.46/WarmCoreCinemaPhone.apk",
+  "version": "1.0.47",
+  "versionCode": 10047,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.47/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.46/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.47/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "蓝牙连接升级：Android 10+ 且硬件支持的手机，好友连接优先走 BLE L2CAP，不支持时自动回落经典蓝牙；广播指纹仅作路由提示，认证仍靠端到端加密和六位核对码；自动模式优先选择最健康的蓝牙线路",
+  "notes": "好友发现加固：Wi-Fi Direct 只认自家服务类型和完整 64 位身份指纹，短前缀/伪造后缀一律忽略，附近有别的设备也不容易被干扰；BLE L2CAP/经典蓝牙/Wi-Fi Direct 连接流程与附近页刷新更稳；连接安全不变（加密+六位核对码）",
   "force_update": false,
   "car_version": "1.0.36"
 }
