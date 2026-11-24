@@ -1,14 +1,14 @@
 {
-  "version": "1.0.45",
-  "versionCode": 10045,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.45/WarmCoreCinemaPhone.apk",
+  "version": "1.0.46",
+  "versionCode": 10046,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.46/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.45/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.46/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "好友连接升级：新增 Wi-Fi Direct 直连——两部手机不需要路由器或同一 Wi-Fi 就能直接聊天传文件（无网环境可用）；新增自动模式，自动选择当前可用的通道（Wi-Fi Direct/局域网/蓝牙）；离开好友页可靠注销发现服务不再留幽灵服务；断掉的旧连接不再挂着；配对安全与上版一致",
+  "notes": "蓝牙连接升级：Android 10+ 且硬件支持的手机，好友连接优先走 BLE L2CAP，不支持时自动回落经典蓝牙；广播指纹仅作路由提示，认证仍靠端到端加密和六位核对码；自动模式优先选择最健康的蓝牙线路",
   "force_update": false,
   "car_version": "1.0.36"
 }
