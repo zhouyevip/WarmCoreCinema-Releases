@@ -1,14 +1,14 @@
 {
-  "version": "1.0.42",
-  "versionCode": 10042,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.42/WarmCoreCinemaPhone.apk",
+  "version": "1.0.43",
+  "versionCode": 10043,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.43/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.42/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.43/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "播放页选集区重做：播放器下方只保留当前影片、资源线路和完整选集，顶部始终显示正在播放哪一集，新增「定位当前」一键滚回；剧集网格最新集在前，标出播放中和缓存状态；换源浏览其他站时不会被带偏，刷新选集不会替换正在播放的地址；只有当前一集信息时（如从历史进入）也能打开选集和换源",
+  "notes": "直播频道重做：同一个台合并成一行、挂多条线路，不再每个地址各占一行；按央视/卫视/体育/新闻/地方分类，可搜频道名或「CCTV5」这类编号；频道可收藏，收藏和最近看过的排前面，上次播通的线路会记住；播放中可换线路、上一台/下一台；线路断了自动换同一频道的其他线路，不会跳到别的台",
   "force_update": false,
   "car_version": "1.0.36"
 }

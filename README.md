@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.42/WarmCoreCinemaPhone.apk) | **1.0.42** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.43/WarmCoreCinemaPhone.apk) | **1.0.43** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.42）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.42**。
+手机端 APK 只有上面这一个（v0.1.43）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.43**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.42/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.43/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.43**（2026-11-24）：手机端 1.0.43。直播频道重做：同一个台合并成一行、挂多条线路；按央视/卫视/体育/新闻/地方分类，可搜频道名或「CCTV5」这类编号；频道可收藏，收藏和最近看过的排前面，上次播通的线路会记住；播放中可换线路、上一台/下一台；线路断了自动换同一频道的其他线路，不会跳到别的台。
 - **v0.1.42**（2026-11-24）：手机端 1.0.42。播放页选集区重做：播放器下方只保留当前影片、资源线路和完整选集，顶部始终显示正在播放哪一集，新增「定位当前」一键滚回；剧集网格最新集在前，标出播放中和缓存状态；换源浏览其他站时不会被带偏，刷新选集不会替换正在播放的地址；只有当前一集信息时（如从历史进入）也能打开选集和换源。
 - **v0.1.41**（2026-11-22）：手机端 1.0.41。片库排序改按内容新鲜度：优先首映/上映日期，其次年份，资源站最后编辑时间仅作次要参考——不再被站点重新编辑过的旧片顶到前排；选集按剧集序号排序；投屏页浏览与选集同样适用。
 - **v0.1.40**（2026-11-22）：手机端 1.0.40。历史跨源归一：同一部剧同一季从不同源观看只保留一张历史卡，续播直达上次那一集和进度；不同季度/同名作品不合并；旧历史升级自动归并。缓存下载新增暂停/继续：暂停立即停流量保留字节，重启不自动恢复，支持单集/本剧/全部继续。
