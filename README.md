@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.44/WarmCoreCinemaPhone.apk) | **1.0.44** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.45/WarmCoreCinemaPhone.apk) | **1.0.45** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.44）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.44**。
+手机端 APK 只有上面这一个（v0.1.45）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.45**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.44/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.45/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.45**（2026-11-24）：手机端 1.0.45。好友连接升级：新增 Wi-Fi Direct 直连（无需路由器/同一 Wi-Fi，无网环境可用）；自动模式自动选可用通道；离开好友页可靠注销发现服务；断线旧连接及时清理；配对安全不变。
 - **v0.1.44**（2026-11-24）：手机端 1.0.44。新增「好友」标签：两部手机蓝牙或同一 Wi-Fi 直连聊天、传文件、分享影片，不经服务器；六位核对码双向确认，好友身份跨连接方式保持；播放器可分享当前影视卡片；文件传输需接收确认、断点续传、SHA-256 校验；聊天与文件仅存本地不进云备份。
 - **v0.1.43**（2026-11-24）：手机端 1.0.43。直播频道重做：同一个台合并成一行、挂多条线路；按央视/卫视/体育/新闻/地方分类，可搜频道名或「CCTV5」这类编号；频道可收藏，收藏和最近看过的排前面，上次播通的线路会记住；播放中可换线路、上一台/下一台；线路断了自动换同一频道的其他线路，不会跳到别的台。
 - **v0.1.42**（2026-11-24）：手机端 1.0.42。播放页选集区重做：播放器下方只保留当前影片、资源线路和完整选集，顶部始终显示正在播放哪一集，新增「定位当前」一键滚回；剧集网格最新集在前，标出播放中和缓存状态；换源浏览其他站时不会被带偏，刷新选集不会替换正在播放的地址；只有当前一集信息时（如从历史进入）也能打开选集和换源。
