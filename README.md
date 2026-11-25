@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.50/WarmCoreCinemaPhone.apk) | **1.0.50** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.51/WarmCoreCinemaPhone.apk) | **1.0.51** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端最新 APK 为上表中的 **v0.1.50**。已有用户可直接覆盖安装，保留原有应用数据，无需卸载。安装后在「设置 → 应用 → WarmCore」核对版本号，应为 **1.0.50**。
+手机端最新 APK 为上表中的 **v0.1.51**。已有用户可直接覆盖安装，保留原有应用数据，无需卸载。安装后在「设置 → 应用 → WarmCore」核对版本号，应为 **1.0.51**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.50/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.51/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.51**（2026-11-25）：手机端 1.0.51。局域网支持同网段定向 UDP 应答，保留广播与 NSD，改善单向发现；新增连接阶段与失败类别诊断，区分入站接收、TLS 握手、证书核验、核对码交换及会话建立。保留身份认证和加密通信，已配对好友无需再次核对。10 项相关单测通过，MuMu 覆盖安装已验证，双机互通待实机验证。
 - **v0.1.50**（2026-11-25）：手机端 1.0.50。局域网好友发现新增 UDP 补充通道，保留 NSD；自动合并发现结果和清理过期记录；完善局域网诊断信息，身份认证与加密通信保持不变。MuMu ADB 覆盖安装已验证，双设备互通待实机验证。
 - **v0.1.48**（2026-11-24）：手机端 1.0.48。好友身份兼容修复：部分手机（OEM 密钥库）证书为占位符/签名无效导致「本机认证身份初始化失败」，现用同一把不可导出原密钥重签合法证书，指纹不变、配对关系不受影响；对端信任校验收紧；失败提示分阶段且不泄露密钥。
 - **v0.1.47**（2026-11-24）：手机端 1.0.47。好友发现加固：Wi-Fi Direct 只认自家服务类型和完整 64 位身份指纹，短前缀/伪造后缀一律忽略；BLE/经典蓝牙/Wi-Fi Direct 连接流程与附近页刷新更稳；连接安全不变。
