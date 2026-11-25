@@ -6,13 +6,13 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 | 应用 | 适用设备 | 直链下载 | 应用内版本 |
 |---|---|---|---|
-| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.48/WarmCoreCinemaPhone.apk) | **1.0.48** |
+| 手机端 Phone | Android 手机 / 平板 | [WarmCoreCinemaPhone.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.50/WarmCoreCinemaPhone.apk) | **1.0.50** |
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端 APK 只有上面这一个（v0.1.48）。旧版本中的手机端安装包均已下架。安装后在「设置 → 应用 → WarmCore」核对版本号，必须是 **1.0.48**。
+手机端最新 APK 为上表中的 **v0.1.50**。已有用户可直接覆盖安装，保留原有应用数据，无需卸载。安装后在「设置 → 应用 → WarmCore」核对版本号，应为 **1.0.50**。
 
-文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.48/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
+文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.50/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
 
@@ -24,6 +24,7 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 
 ## 版本说明
 
+- **v0.1.50**（2026-11-25）：手机端 1.0.50。局域网好友发现新增 UDP 补充通道，保留 NSD；自动合并发现结果和清理过期记录；完善局域网诊断信息，身份认证与加密通信保持不变。MuMu ADB 覆盖安装已验证，双设备互通待实机验证。
 - **v0.1.48**（2026-11-24）：手机端 1.0.48。好友身份兼容修复：部分手机（OEM 密钥库）证书为占位符/签名无效导致「本机认证身份初始化失败」，现用同一把不可导出原密钥重签合法证书，指纹不变、配对关系不受影响；对端信任校验收紧；失败提示分阶段且不泄露密钥。
 - **v0.1.47**（2026-11-24）：手机端 1.0.47。好友发现加固：Wi-Fi Direct 只认自家服务类型和完整 64 位身份指纹，短前缀/伪造后缀一律忽略；BLE/经典蓝牙/Wi-Fi Direct 连接流程与附近页刷新更稳；连接安全不变。
 - **v0.1.46**（2026-11-24）：手机端 1.0.46。蓝牙连接升级：Android 10+ 硬件支持时好友连接优先走 BLE L2CAP，不支持自动回落经典蓝牙；广播指纹仅作路由提示（认证仍靠加密+六位核对码）；自动模式优先最健康蓝牙线路。
