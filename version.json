@@ -1,14 +1,14 @@
 {
-  "version": "1.0.51",
-  "versionCode": 10051,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.51/WarmCoreCinemaPhone.apk",
+  "version": "1.0.52",
+  "versionCode": 10052,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.52/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.51/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.52/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "局域网好友发现新增同网段定向 UDP 应答，改善单向发现；完善连接与认证阶段诊断。保留首次配对确认和加密安全，已配对好友无需重复核对。",
+  "notes": "修复 Android TLS 双向认证兼容问题，使用独立 EC TLS 认证密钥，保留原有好友身份和数据。82 项好友模块测试全部通过，MuMu 覆盖安装和系统签名自检成功。真实手机双端配对仍需验证。",
   "force_update": false,
   "car_version": "1.0.36"
 }
