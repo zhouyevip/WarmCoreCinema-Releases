@@ -1,14 +1,14 @@
 {
-  "version": "1.0.48",
-  "versionCode": 10048,
-  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.48/WarmCoreCinemaPhone.apk",
+  "version": "1.0.51",
+  "versionCode": 10051,
+  "url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.51/WarmCoreCinemaPhone.apk",
   "apk_signer_sha256": "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978",
   "apk_by_signer": {
-    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.48/WarmCoreCinemaPhone.apk"
+    "89900f6f919dc93913462a9a6ce0f4a2153e45c44e195a31b890b0a653bfd978": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.51/WarmCoreCinemaPhone.apk"
   },
   "tv_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk",
   "car_url": "https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk",
-  "notes": "好友身份兼容修复：部分手机（OEM 密钥库）安装证书是占位符或签名无效导致「本机认证身份初始化失败」，现用同一把不可导出原密钥重签合法证书，身份指纹不变、已配对关系不受影响；对端信任校验收紧为明确的 RSA SHA-2 算法与严格 PSS 参数；失败时给出分阶段提示不泄露密钥；连接安全不变",
+  "notes": "局域网好友发现新增同网段定向 UDP 应答，改善单向发现；完善连接与认证阶段诊断。保留首次配对确认和加密安全，已配对好友无需重复核对。",
   "force_update": false,
   "car_version": "1.0.36"
 }
