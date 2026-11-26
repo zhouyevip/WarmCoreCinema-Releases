@@ -10,11 +10,19 @@ WarmCore 多端影院应用的安装包下载页。本项目仅公开发布 APK�
 | 电视端 TV | Android TV / 电视盒子 | [WarmCoreCinemaTV.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.37/WarmCoreCinemaTV.apk) | 1.1.7 |
 | 车机端 Car | 车载安卓（兼容 Android 4.1+ 老车机） | [WarmCoreCinemaCar-debug.apk](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.4/WarmCoreCinemaCar-debug.apk) | 1.0.36 |
 
-手机端最新 APK 为上表中的 **v0.1.52**。已有用户可直接覆盖安装，保留原有应用数据，无需卸载。安装后在「设置 → 应用 → WarmCore」核对版本号，应为 **1.0.52**。
+手机端正式版为上表中的 **v0.1.52**。已有用户可直接覆盖安装，保留原有应用数据，无需卸载。安装后在「设置 → 应用 → WarmCore」核对版本号，应为 **1.0.52**。
 
 文件完整性校验：[SHA256.txt](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.52/SHA256.txt)（TV 端哈希见 [v0.1.37 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.37)，车机端见 [v0.1.4 SHA256](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.4)）
 
 全部版本请见 [Releases 页面](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases)。
+
+## 手机端测试版
+
+**1.0.52 出牌提示测试版**（`v0.1.52-card-hint-test`）。沿用原签名，可覆盖安装。
+
+打开「好友 → 牌桌」体验斗地主和掼蛋。「提示」会选中一手可出的牌。手选牌型、张数或点数不符合跟牌规则时，「出牌」会禁用并显示原因。
+
+[下载测试 APK](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.52-card-hint-test/WarmCoreCinemaPhone.apk) · [SHA-256 校验文件](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/download/v0.1.52-card-hint-test/SHA256.txt) · [发布说明](https://github.com/zhouyevip/WarmCoreCinema-Releases/releases/tag/v0.1.52-card-hint-test)
 
 ## 安装说明
 
